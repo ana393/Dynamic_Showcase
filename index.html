@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="/Styles/style.css" />
+    <title>Dynamic Showcase</title>
+    <script
+      src="https://kit.fontawesome.com/595a9ea4a2.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <div class="nav-center">
+        <h2>Happy Colours Grocery</h2>
+        <!--Shoping Cart-->
+        <div id="cart-btn">
+          <span class="cart-icon">
+            <i class="fas fa-cart-plus"></i>
+          </span>
+          <div class="cart-items">0</div>
+        </div>
+
+        <!--Cart Window-->
+
+        <div id="cart" class="cartWindow">
+          <span class="close-cart">
+            <i class="fas fa-window-close"></i>
+          </span>
+          <h3>Your Cart</h3>
+          <div class="cart-content">
+            <!--Cart Element added dynamicly-->
+          </div>
+          <div class="cart-footer">
+            <h3>Your total : € <span class="cart-total">0</span></h3>
+            <button class="clear-cart-btn">Clear Cart</button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!--Products Collection to Choose-->
+    <main>
+      <section class="title">
+        <h1>Shop By Dragging to the Cart</h1>
+      </section>
+      <!---Products Container-->
+      <div class="products-center">
+        <!---Single Product to add dynamicly-->
+      </div>
+    </main>
+
+    <footer>
+      <div class="footerText">
+        <h4>2020 &copy; . Ana Tcaci</h4>
+      </div>
+      <div class="footerIcons">
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-google-plus"></i></a>
+      </div>
+    </footer>
+    <script src="/JS/main.js"></script>
+  </body>
+</html>
